@@ -76,5 +76,6 @@ Switch to the master branch then switch back to your branch.
 
 ## Completed
 Jacob Luber
-Test
+Eric Bartell
+
 
