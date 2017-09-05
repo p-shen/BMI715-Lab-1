@@ -1,0 +1,71 @@
+---
+title: "BMI 715 Lab 1"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Below is instructions for completing the first lab. If you finish all of the github exercises please feel free to start on the first problem set. After the brief lecture the TAs will be walking around the room to help with both the lab and the problem set. The slides included in this lab show instructions for how to complete the lab using the github GUI. 
+
+## Cloning
+
+Clone the remote repository whose location is specified below to your local machine. 
+
+```
+git clone git@github.com:jacobluber/BMI715-Lab-1.git
+```
+
+## Creating a branch
+Since we are all working in this repo together, you should create a branch to store the changes you are making to whichever files we are tracking with version control:
+```
+git checkout -b [name_of_your_new_branch]
+git push origin [name_of_your_new_branch]
+```
+
+After everyone else had made branches, you can see their branches:
+
+```
+git pull
+git branch
+```
+
+## Changing Files
+
+Edit this R markdown file "lab1.Rmd" in your text editor of choice so that it is different from the current copy and save it. 
+
+
+## Adding Files To Be Pushed
+
+You can add files to be pushed remotely by either using:
+
+```git add [FILENAME]```
+
+or add all files:
+
+```git add -a```
+
+## Commiting
+
+```git commit -m "You commit message here"```
+
+## Pushing
+To update
+
+```git push```
+
+## Tagging
+
+```git tag -a v1.0 -m "version 1.0"```
+```git push origin --tags```
+
+## Checking Out A Branch 
+
+
+## Fixing Merge Conflicts 
+
+## Completed
+
+
+
