@@ -17,7 +17,7 @@ Since we are all working in this repo together, you should create a branch to st
 ```
 git checkout -b [name_of_your_new_branch]
 git push origin [name_of_your_new_branch]
-git push --set-upstream origin jacob_luber
+git push --set-upstream origin [name_of_your_new_branch]
 ```
 This code creates a new branch and then subsequently updates the remote repo. 
 
