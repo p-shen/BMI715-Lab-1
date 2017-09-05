@@ -18,11 +18,12 @@ git clone git@github.com:jacobluber/BMI715-Lab-1.git
 ```
 
 ## Creating a branch
-Since we are all working in this repo together, you should create a branch to store the changes you are making to whichever files we are tracking with version control:
+Since we are all working in this repo together, you should create a branch to store the changes you are making to whichever files we are tracking with version control. Name your branch with your name.
 ```
 git checkout -b [name_of_your_new_branch]
 git push origin [name_of_your_new_branch]
 ```
+This code creates a new branch and then subsequently updates the remote repo. 
 
 After everyone else had made branches, you can see their branches:
 
@@ -33,7 +34,7 @@ git branch
 
 ## Changing Files
 
-Edit this R markdown file "lab1.Rmd" in your text editor of choice so that it is different from the current copy and save it. 
+Edit this R markdown file "lab1.Rmd" so that you have added your name to the completed section at the end.
 
 
 ## Adding Files To Be Pushed
@@ -46,26 +47,34 @@ or add all files:
 
 ```git add -a```
 
+Add "lab1.Rmd" so that it will be pushed to the remote repo.
+
 ## Commiting
 
+It is important to leave commit messages so that other people you are collaborating with can see what changes you contribuetd to any version code. Please leave a commit message with whatever changes you made.
 ```git commit -m "You commit message here"```
 
 ## Pushing
-To update
+After you commit changes, you need to push them to the remote repo. Make sure that you are on the branch that you created and not the master branch when you do this. 
 
 ```git push```
 
 ## Tagging
 
+You can add tags to track software versions. The syntax is shown below as an example. Don't worry about adding a tag now. 
 ```git tag -a v1.0 -m "version 1.0"```
 ```git push origin --tags```
 
 ## Checking Out A Branch 
 
+You can switch from your branch to the master branch (shared code that everyone is contributing to):
+```git checkout master```
+Switch to the master branch then switch back to your branch.
+
 
 ## Fixing Merge Conflicts 
 
 ## Completed
-
+Jacob Luber
 
 
