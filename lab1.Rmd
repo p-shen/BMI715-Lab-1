@@ -7,11 +7,11 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Below is instructions for completing the first lab. If you finish all of the github exercises please feel free to start on the first problem set. After the brief lecture the TAs will be walking around the room to help with both the lab and the problem set. The slides included in this lab show instructions for how to complete the lab using the github GUI. 
+Below is instructions for completing the first lab. If you finish all of the github exercises please feel free to start on the first problem set. After the brief lecture the TAs will be walking around the room to help with both the lab and the problem set. The slides included in this lab show instructions for how to complete the lab using the github GUI.
 
 ## Cloning
 
-Clone the remote repository whose location is specified below to your local machine. 
+Clone the remote repository whose location is specified below to your local machine.
 
 ```
 git clone git@github.com:jacobluber/BMI715-Lab-1.git
@@ -23,7 +23,7 @@ Since we are all working in this repo together, you should create a branch to st
 git checkout -b [name_of_your_new_branch]
 git push origin [name_of_your_new_branch]
 ```
-This code creates a new branch and then subsequently updates the remote repo. 
+This code creates a new branch and then subsequently updates the remote repo.
 
 After everyone else had made branches, you can see their branches:
 
@@ -55,26 +55,27 @@ It is important to leave commit messages so that other people you are collaborat
 ```git commit -m "You commit message here"```
 
 ## Pushing
-After you commit changes, you need to push them to the remote repo. Make sure that you are on the branch that you created and not the master branch when you do this. 
+After you commit changes, you need to push them to the remote repo. Make sure that you are on the branch that you created and not the master branch when you do this.
 
 ```git push```
 
 ## Tagging
 
-You can add tags to track software versions. The syntax is shown below as an example. Don't worry about adding a tag now. 
+You can add tags to track software versions. The syntax is shown below as an example. Don't worry about adding a tag now.
 ```git tag -a v1.0 -m "version 1.0"```
 ```git push origin --tags```
 
-## Checking Out A Branch 
+## Checking Out A Branch
 
 You can switch from your branch to the master branch (shared code that everyone is contributing to):
 ```git checkout master```
 Switch to the master branch then switch back to your branch.
 
 
-## Fixing Merge Conflicts 
+## Fixing Merge Conflicts
 
 ## Completed
 Jacob Luber
+Eric Bartell
 
 
