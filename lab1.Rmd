@@ -2,7 +2,7 @@
 title: "BMI 715 Lab 1"
 ---
 
-Below is instructions for completing the first lab. If you finish all of the github exercises please feel free to start on the first problem set. After the brief lecture the TAs will be walking around the room to help with both the lab and the problem set. The slides included in this lab show instructions for how to complete the lab using the github GUI. 
+Below are instructions for completing the first lab. If you finish all of the github exercises please feel free to start on the first problem set. After the brief lecture the TAs will be walking around the room to help with both the lab and the problem set. The slides included in this lab show instructions for how to complete the lab using the github GUI. 
 
 ## Cloning
 
